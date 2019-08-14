@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '%l(bqk1^=9+24+m84$299)-u*elp_t
 #DEBUG = True
 #export DJANGO_DEBUG=False
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['peaceful-hamlet-21415.herokuapp.com',]
 
 
 # Application definition
